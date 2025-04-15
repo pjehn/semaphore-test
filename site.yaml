@@ -1,6 +1,7 @@
 ---
 - name: test play
   hosts: servera
+  become: yes
   tasks:
   - name: print os info
     ansible.builtin.shell:
