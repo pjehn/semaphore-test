@@ -4,4 +4,4 @@
   tasks:
   - name: print os info
     ansible.builtin.shell:
-      cmd: cat /etc/os-release >> /home/jimi/os.txt
+      cmd: cat /etc/os-release
